@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/719bb41fb0.js"></script>
+    <title>Meu portifólio</title>
+    <style>
+      p {
+          font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      }
+
+      .foto-perfil {
+          height: 100%;
+          max-width: auto;
+          border-radius: 50%;
+      }
+
+      .icones {
+          padding-left: 5px;
+      }
+
+      .titulosBrancos {
+          text-decoration: underline;
+          text-underline-position: under;
+          padding-bottom: 20px;
+          text-transform: uppercase;
+          font-weight: 700;
+          color: white;
+      }
+
+      .titulosVerdes {
+          text-decoration: underline;
+          text-underline-position: under;
+          padding-bottom: 20px;
+          text-transform: uppercase;
+          font-weight: 700;
+          color: #18bc9c
+      }
+
+      .paragrafoBrancos {
+          color: white !important;
+      }
+
+
+      .jumbotron {
+          margin-bottom: 0px;
+      }
+
+      html {
+          scroll-behavior: smooth;
+      }
+
+      p {
+          color: black !important;
+      }
+
+      .corPrimaria {
+          background-color: #18bc9c;
+      }
+
+      .itemMenu {
+          color: white;
+      }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-md navbar-light" style="background-color:#2c3e50">
+      <a class="navbar-brand" href="#" style=color:white>Leandro Bruno</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04"
+          aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample04">
+          <ul class="navbar-nav mr-auto">
+
+          </ul>
+          <ul class="navbar-nav">
+              <li>
+                  <a href="#projetos" class="nav-link" style=color:white> Projetos</a>
+              </li>
+              <li>
+                  <a href="#sobre-mim" class="nav-link" style=color:white>Sobre mim</a>
+                </li>
+                <li>
+                    <a href="mailto:Leobru555@gmail.com" class="nav-link" style=color:white>Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="jumbotron text-center corPrimaria">
+      <div class="container">
+         <!-- <img src="https://i.ibb.co/gFfDZtK/jhonatan-copy.jpg" class="foto-perfil" alt="Responsive image">-->
+          <h1 class="jumbotron-heading" style="color:white;text-transform: uppercase;">Leandro Bruno</h1>
+          <p class="lead" style="color:white !important;">Desenvolvedor Front-End Jr - Estudante de Desenvolvimento Web - Estudante de Engenharia de Computação
+          </p>
+          <p>
+              <a href="mailto:Leobru555@gmail.com" class="btn btn-dark my-2">Contato</a>
+          </p>
+          <a href="https://www.linkedin.com/in/leandro-bruno-600a91140/"><i class="fa fa-linkedin btn btn-dark my-2" aria-hidden="true"></i></a>
+          <a href="https://github.com/LeandroBruno-1999?tab=repositories"><i class="fa fa-github btn btn-dark my-2" aria-hidden="true"></i></a>
+        </div>
+      </section>
+      <div class="album py-5 bg-light " id="projetos">
+        <div class="container">
+            <h2 class="text-center jumbotron-heading titulosVerdes">Projetos</h2>
+            <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="./imagens/Capturar.PNG" data-holder-rendered="true">
+                <div class="card-body">
+                  <p class="card-text">Esse é um projeto ficticio para uma faculdade também ficticia onde pode ser encontrada uma página de sobre a faculdade e uma pagina de contatos.
+                    <ul>
+                      <li>HTML5</li>
+                      <li>CSS3</li>
+                    </ul>
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="https://leandrobruno-1999.github.io/ProjetoUnes/"><button type="button" class="btn btn-sm btn-outline-success">Ver projeto</button></a>
+                       <a href="https://github.com/LeandroBruno-1999/ProjetoUnes"><button type="button" class="btn btn-sm btn-outline-primary">Código Github</button></a>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="./imagens/Capturar3.PNG" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                  <div class="card-body">
+                    <p class="card-text">Esse é um projeto ficticio do museu nacional onde pode ser encontrado videos anexados a página, mapa com a localização do museu, galeria de fotos e formulario para marcar visitas.
+                      <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Bootstrap4</li>
+                      </ul>
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a href="https://leandrobruno-1999.github.io/ProjetoMuseuNacionalFicticio/"><button type="button" class="btn btn-sm btn-outline-success">Ver projeto</button></a>
+                       <a href="https://github.com/LeandroBruno-1999/ProjetoMuseuNacionalFicticio"><button type="button" class="btn btn-sm btn-outline-primary">Código Github</button></a>
+                      </div>
+                      <small class="text-muted">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="./imagens/Capturar4.PNG" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                  <div class="card-body">
+                    <p class="card-text">Esse projeto é uma recriação da pagina inicial do Spotify.
+                      <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Bootstrap4</li>
+                        <li>Fontawesome</li>
+                      </ul>
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a href="https://leandrobruno-1999.github.io/SpotifyClone/"><button type="button" class="btn btn-sm btn-outline-success">Ver projeto</button></a>
+                       <a href="https://github.com/LeandroBruno-1999/SpotifyClone"><button type="button" class="btn btn-sm btn-outline-primary">Código Github</button></a>
+                      </div>
+                      <small class="text-muted">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="./imagens/Capturar5.PNG" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                  <div class="card-body">
+                    <p class="card-text">Site ficticio do jornal da cidade, onde pode ser encontrado diversas reportagens na página inicial. 
+                      <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Bootstrap4</li>
+                        <li>Fontawesome</li>
+                      </ul>
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                       <a href="https://leandrobruno-1999.github.io/Noticiasdacidade/"><button type="button" class="btn btn-sm btn-outline-success">Ver projeto</button></a>
+                       <a href="https://github.com/LeandroBruno-1999/Noticiasdacidade"><button type="button" class="btn btn-sm btn-outline-primary">Código Github</button></a>
+                      </div>
+                      <small class="text-muted">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="./imagens/Capturar 6.PNG" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                  <div class="card-body">
+                   <p class="card-text">Esse projeto é projeto Finans que é um site também ficticio que seria um site de finanças e de emprestimos. 
+                    <ul>
+                      <li>HTML5</li>
+                      <li>CSS3</li>
+                      <li>Bootstrap4</li>
+                      <li>Fontawesome</li>
+                    </ul>
+                   </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                       <a href="https://leandrobruno-1999.github.io/ProjetoFinans/"><button type="button" class="btn btn-sm btn-outline-success">Ver projeto</button></a>
+                       <a href="https://github.com/LeandroBruno-1999/ProjetoFinans"><button type="button" class="btn btn-sm btn-outline-primary">Código Github</button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="./imagens/Capturar7.PNG" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                  <div class="card-body">
+                    <p class="card-text">Projeto de Angular 9. Esse é um projeto que busca implemetar um cadastro de produtos com ações de adicionar produto, editar e excluir. Esse é um projeto CRUD que quer dizer  Create, Read, Update and Delete, o backend desse projeto foi feito com node.js onde o arquivo db.json fica responsável por armazenar os produtos que são registrados.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                      <!--  <a href=""><button type="button" class="btn btn-sm btn-outline-success">Ver projeto</button></a>
+                       <a href=""><button type="button" class="btn btn-sm btn-outline-primary">Código Github</button></a>-->
+                      </div>
+                      <small class="text-muted">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+            <!--Section sobre mim-->
+            <section class="jumbotron text-center corPrimaria" id="sobre-mim">
+              <div class="container">
+                  <h2 class="jumbotron-heading titulosBrancos">Sobre mim</h2>
+                  <p class="lead paragrafoBrancos">Olá me chamo Leandro Bruno, tenho  20 anos moro em Itapipoca e sou estudante em Sobral, faço o curso de Engenharia de Computação na Universidade Federal do Ceará, estudo programação web por fora dos estudos da universidade, e por enquanto sou um desenvolvedor front-end mais futuramente pretendo continuar estudando e conseguir saber um pouco de frontend e também de back-end.</p>
+              </div>
+          </section>
+          <br>
+          <br>
+
+</body>
+</html>
